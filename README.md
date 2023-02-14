@@ -3,6 +3,7 @@
 ## Competition link
 [link](https://www.robomaster.com/zh-CN/robo/drone?type=drone-info)
 ## Vedio link
+![iamge](https://github.com/Stephen-SMJ/RoboMaster/blob/main/2023-02-14_18-38-08.gif) <br>
 [link](https://stg-robomasters-hz-q0o2.oss-cn-hangzhou.aliyuncs.com/dronerace/result/c3ef78b53772484e975055dafa69ee6d/video.mp4)
 ## We managed to cross all the targets and ranked 28th nationally.
 Reslut : 7	00:01:41.600	4.65	2.02 
