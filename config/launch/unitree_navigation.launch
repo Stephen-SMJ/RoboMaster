@@ -1,0 +1,29 @@
+<launch>
+	<!-- map server node -->
+	<arg name="map_file" default="$(find config)/maps/map.yaml"/>
+	<!--node name="map_server" pkg="map_server" type="map_server" args="$(arg map_file)"/-->
+
+	<param name="config_folder" type="string" value="$(find config)" />
+
+	<!-- smooth control node -->
+	<!--node pkg="smooth_control" type="smooth_control" name="smooth_control_node"-->
+  <!-- </node> -->
+
+	<!-- load map.yaml -->
+	<rosparam file="$(find config)/maps/map.yaml" command="load" />
+	<!-- load global_planner.yaml -->
+	<rosparam file="$(find config)/yaml/GlobalPlanner.yaml" command="load" />
+
+	<!-- unitree navigation node -->
+  <node pkg="unitree_nav_ros" type="unitree_nav_ros" name="unitree_nav_ros_node" output="screen"> <!--launch-prefix="xterm -e gdb -ex run args"-->
+		<!-- load A*.yaml -->
+    <param name="kCost1" type="string" value="$(find config)/yaml/Astar.yaml"/>
+    <param name="kCost2" type="string" value="$(find config)/yaml/Astar.yaml"/>
+    <param name="range_length" type="string" value="$(find config)/yaml/Astar.yaml"/>
+    <param name="range_width" type="string" value="$(find config)/yaml/Astar.yaml"/>
+    <param name="resolution" type="string" value="$(find config)/yaml/Astar.yaml"/>
+  </node>
+
+	<!-- rviz node -->
+  <!-- <node name="rviz" pkg="rviz" type="rviz" args="-d $(find config)/rviz/unitree_navigation.rviz"/> -->
+</launch>

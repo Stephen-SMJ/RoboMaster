@@ -1,0 +1,3 @@
+gazebo_robot_name a1_gazebo
+first_turn_target_tolerance 0.15
+arrive_tolerance 0.2

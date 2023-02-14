@@ -1,0 +1,7 @@
+<launch>
+  <node pkg="smooth_control" type="smooth_control" name="smooth_control_node" output="screen"> 
+  </node>
+  <node pkg="logic" type="logic" name="logic_node" output="screen"> 
+  </node>
+
+</launch>

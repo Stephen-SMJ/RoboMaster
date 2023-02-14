@@ -1,0 +1,3 @@
+delta_circle: 0.2
+safe_expand_size: 0.1
+double costmap_resolution_: 0.3

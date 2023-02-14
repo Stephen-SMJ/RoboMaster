@@ -1,0 +1,7 @@
+<launch>
+	<node pkg="airsim_ros_pkgs" type="pd_position_controller_simple_node" name="pd_control" />
+	<node pkg="go" type="go" name="go" output="screen"/>
+
+	 <include file="/home/zjr/IntelligentUAVChampionshipBase/src/config/launch/unitree_navigation.launch">
+	</include>
+</launch>
