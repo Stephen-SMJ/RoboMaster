@@ -7,5 +7,5 @@
 ## We managed to cross all the targets and ranked 28th nationally.
 Reslut : 7	00:01:41.600	4.65	2.02 
 ![image](https://user-images.githubusercontent.com/67999981/218703401-53b93ad0-2f84-416e-bcb9-01743401b897.png)
-[link](https://www.robomaster.com/zh-CN/robo/drone?type=drone-info)
+[link](https://pro-robomasters-hz-n5i3.oss-cn-hangzhou.aliyuncs.com/sass/event-list.html)
 
