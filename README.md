@@ -1,4 +1,4 @@
-![dilation](https://github.com/Stephen-SMJ/RoboMaster/assets/67999981/3091cc6f-03ff-4343-ae93-c77bfdb48d9d)# RoboMaster 2022无人飞行器智能感知技术竞赛 | 线上仿真赛极速穿圈赛项（全国第29名）
+# RoboMaster 2022无人飞行器智能感知技术竞赛 | 线上仿真赛极速穿圈赛项（全国第29名）
 ![image](https://user-images.githubusercontent.com/67999981/218703261-15ceeead-2bad-43e3-8121-54f4a97da7df.png)
 ## Competition link
 [link](https://www.robomaster.com/zh-CN/robo/drone?type=drone-info)
